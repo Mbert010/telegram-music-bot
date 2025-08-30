@@ -2,8 +2,8 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-API_TOKEN = os.environ.get('7616420193:AAHw9gE9is_WVLjkxF2qLWblj4BoURDgdIMAPI_TOKEN')
-CHANNEL_ID = os.environ.get('@musicbuty')
+API_TOKEN = os.environ.get("API_TOKEN")
+CHANNEL_ID = os.environ.get("CHANNEL_ID")
 COUNTER_FILE = "counter.txt"
 
 # خواندن شمارنده از فایل
